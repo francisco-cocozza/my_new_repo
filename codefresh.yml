@@ -1,0 +1,6 @@
+version: '1.0'
+steps:
+  free: 
+    image: alpine
+    commands:
+      - printenv | grep CF
