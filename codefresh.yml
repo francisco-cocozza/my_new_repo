@@ -6,4 +6,4 @@ steps:
       - printenv | grep CF
       - echo "VAR1=${{VAR1}}"
       - echo "VAR2=$VAR2"
-      
+      - pwd
